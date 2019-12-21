@@ -16,7 +16,8 @@
     <author href="http://moodle.com" email="mobile@moodle.com">
         ECAMPUS Mobile 
     </author>
-	<edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
+
+    <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
         <string>3.8.0</string>
     </edit-config>
 
