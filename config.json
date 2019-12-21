@@ -60,7 +60,7 @@
     "customurlscheme": "moodlemobile",
     "siteurl": "https://ecampus.itcilo.org/",
     "sitename": "e-campus",
-    "multisitesdisplay": "select",
+    "multisitesdisplay": false,
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://ecampus.itcilo.org/",
