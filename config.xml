@@ -75,7 +75,7 @@
 
     <platform name="android">
         <resource-file src="MainActivity.java" target="app/src/main/java/com/moodle/moodlemobile/MainActivity.java" />
-        <resource-file src="google-services.json" target="app/google-services.json" />
+        <!-- <resource-file src="google-services.json" target="app/google-services.json" /> -->
         <resource-file src="resources/values/colors.xml" target="app/src/main/res/values/colors.xml" />
         <icon background="@color/background" density="ldpi" foreground="resources/android/icon/ldpi-foreground.png" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon background="@color/background" density="mdpi" foreground="resources/android/icon/mdpi-foreground.png" src="resources/android/icon/drawable-mdpi-icon.png" />
@@ -197,10 +197,10 @@
     <gap:plugin name="cordova-plugin-zip" source="npm" spec="3.1.0" />
     <gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild-3.4.0" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="1.0.1" />
-    <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3">
+    <!-- <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3">
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.5.+" />
-    </gap:plugin>
+    </gap:plugin> -->
 
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" android:name="MainActivity"></activity>
